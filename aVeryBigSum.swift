@@ -1,0 +1,15 @@
+import Foundation
+
+// number of elements
+let n = Int(readLine()!)!
+
+// read array and map the elements to integer
+let arr = readLine()!.components(separatedBy: " ").map{ Int($0)! }
+
+var arraySum = 0
+
+for number in arr {
+    arraySum += number
+}
+
+print(arraySum)
