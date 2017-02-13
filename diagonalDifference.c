@@ -21,7 +21,7 @@ int main() {
   for(int j = 0; j < n; j++) {
     for(int k = 0; k < n; k++) {
       if (j == k) {
-	diagonalLiftSum += a[j][k];
+	diagonalLeftSum += a[j][k];
       }
       if (j + k == n - 1) {
 	diagonalRightSum += a[j][k];
